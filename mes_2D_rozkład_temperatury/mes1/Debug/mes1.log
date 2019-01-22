@@ -1,0 +1,47 @@
+﻿Build started 2019-01-22 18:29:53.
+     1>Project "C:\Users\yakuza\Documents\Visual Studio 2010\Projects\mes1\mes1\mes1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\mes1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Grid.cpp Universalelement.cpp calka.cpp globalElement.cpp main.cpp
+         Grid.cpp
+     1>c:\users\yakuza\documents\visual studio 2010\projects\mes1\mes1\grid.cpp(14): warning C4244: 'initializing' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\yakuza\documents\visual studio 2010\projects\mes1\mes1\grid.cpp(15): warning C4244: 'initializing' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\yakuza\documents\visual studio 2010\projects\mes1\mes1\grid.cpp(52): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\yakuza\documents\visual studio 2010\projects\mes1\mes1\grid.cpp(63): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\yakuza\documents\visual studio 2010\projects\mes1\mes1\grid.cpp(99): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\yakuza\documents\visual studio 2010\projects\mes1\mes1\grid.cpp(103): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\yakuza\documents\visual studio 2010\projects\mes1\mes1\grid.cpp(104): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\yakuza\documents\visual studio 2010\projects\mes1\mes1\grid.cpp(105): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\yakuza\documents\visual studio 2010\projects\mes1\mes1\grid.cpp(106): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\yakuza\documents\visual studio 2010\projects\mes1\mes1\grid.cpp(107): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\yakuza\documents\visual studio 2010\projects\mes1\mes1\grid.cpp(108): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\yakuza\documents\visual studio 2010\projects\mes1\mes1\grid.cpp(109): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\yakuza\documents\visual studio 2010\projects\mes1\mes1\grid.cpp(486): warning C4101: 'wyznacznik' : unreferenced local variable
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         main.cpp
+         globalElement.cpp
+         calka.cpp
+         Universalelement.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\yakuza\Documents\Visual Studio 2010\Projects\mes1\Debug\mes1.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\mes1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\yakuza\Documents\Visual Studio 2010\Projects\mes1\Debug\mes1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\yakuza\Documents\Visual Studio 2010\Projects\mes1\Debug\mes1.lib" /MACHINE:X86 Debug\calka.obj
+         Debug\GlobalData.obj
+         Debug\globalElement.obj
+         Debug\Grid.obj
+         Debug\main.obj
+         Debug\Node.obj
+         Debug\Universalelement.obj
+         Debug\wyznacznik4x4.obj
+         LINK : C:\Users\yakuza\Documents\Visual Studio 2010\Projects\mes1\Debug\mes1.exe not found or not built by the last incremental link; performing full link
+         mes1.vcxproj -> C:\Users\yakuza\Documents\Visual Studio 2010\Projects\mes1\Debug\mes1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\yakuza\Documents\Visual Studio 2010\Projects\mes1\Debug\mes1.exe;#1" /manifest Debug\mes1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\mes1.unsuccessfulbuild".
+         Touching "Debug\mes1.lastbuildstate".
+     1>Done Building Project "C:\Users\yakuza\Documents\Visual Studio 2010\Projects\mes1\mes1\mes1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.25
